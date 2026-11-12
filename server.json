@@ -3,9 +3,25 @@
   "name": "rent.lexio/lexio",
   "title": "Lexio",
   "description": "Read-only access to a Lexio vehicle rental account: availability, rentals, fleet, pricing.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://lexio.rent/mcp",
-  "repository": { "url": "https://github.com/LEXIO-RENT/lexio-mcp", "source": "github" },
-  "icons": [ { "src": "https://lexio.rent/icon.png", "mimeType": "image/png", "sizes": ["512x512"] } ],
-  "remotes": [ { "type": "streamable-http", "url": "https://api.lexio.rent/mcp" } ]
+  "repository": {
+    "url": "https://github.com/LEXIO-RENT/lexio-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://lexio.rent/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lexio.rent/mcp"
+    }
+  ]
 }
