@@ -1,0 +1,13 @@
+{
+  "name": "lexio",
+  "owner": { "name": "Lexio", "email": "contact@lexio.rent" },
+  "metadata": { "description": "Official Lexio plugin for Claude." },
+  "plugins": [
+    {
+      "name": "lexio",
+      "source": "./",
+      "description": "Ask Claude about your Lexio vehicle rental agency. Read-only.",
+      "homepage": "https://lexio.rent/mcp"
+    }
+  ]
+}

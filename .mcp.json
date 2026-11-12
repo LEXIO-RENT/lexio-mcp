@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "lexio": { "type": "http", "url": "https://api.lexio.rent/mcp" }
+  }
+}

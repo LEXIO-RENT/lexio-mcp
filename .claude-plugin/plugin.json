@@ -1,0 +1,11 @@
+{
+  "name": "lexio",
+  "version": "1.0.0",
+  "description": "Ask Claude about your Lexio vehicle rental agency: availability, rentals, customers, fleet, maintenance and pricing. Read-only.",
+  "author": { "name": "Lexio", "email": "contact@lexio.rent", "url": "https://lexio.rent" },
+  "homepage": "https://lexio.rent/mcp",
+  "repository": "https://github.com/LEXIO-RENT/lexio-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "car rental", "vehicle rental", "fleet management", "location de voiture"],
+  "mcpServers": "./.mcp.json"
+}
