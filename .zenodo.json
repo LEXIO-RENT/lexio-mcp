@@ -1,0 +1,12 @@
+{
+  "title": "Lexio MCP server: read-only access to a vehicle rental account",
+  "upload_type": "software",
+  "description": "<p>Description, registry entry and client configuration for the remote Model Context Protocol (MCP) server of Lexio, a vehicle rental management software. The server (<code>https://api.lexio.rent/mcp</code>, Streamable HTTP, OAuth 2.1 with PKCE) exposes 43 read-only tools covering availability, rentals, fleet, customers, pricing and invoices, so an AI assistant can answer questions about a rental company's activity without being able to modify its data.</p><p>Documentation: <a href=\"https://lexio.rent/mcp\">https://lexio.rent/mcp</a></p>",
+  "creators": [{ "name": "Lexio" }],
+  "license": "MIT",
+  "keywords": ["Model Context Protocol", "MCP", "remote MCP server", "vehicle rental", "car rental", "fleet management", "OAuth 2.1"],
+  "related_identifiers": [
+    { "identifier": "https://lexio.rent/mcp", "relation": "isDocumentedBy", "resource_type": "publication-softwaredocumentation" },
+    { "identifier": "https://github.com/LEXIO-RENT/lexio-mcp", "relation": "isSupplementTo", "resource_type": "software" }
+  ]
+}
